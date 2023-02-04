@@ -5,6 +5,7 @@ This program allows you to convert JSON property of PolygonCollider2D path to C#
 ## How to use:
 
 1. Copy the path in the Unity editor
+
 ![img](https://user-images.githubusercontent.com/65243242/216768928-98bc4003-3504-4a17-93f5-cf1a69340f5d.png)
 
 2. Paste this into the textbox.
