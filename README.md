@@ -1,6 +1,6 @@
 # Path Converter
 
-This program allows you to convert JSON property of PolygonCollider2D path to C# code. Useful for modding.
+This program allows you to convert Unity JSON property of PolygonCollider2D path to C# code. Useful for modding.
 
 ## How to use:
 
