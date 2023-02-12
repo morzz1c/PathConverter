@@ -2,16 +2,12 @@
 using System.Text;
 using Newtonsoft.Json;
 using System.Windows.Forms;
-using Newtonsoft.Json.Linq;
 
 namespace PathConverter
 {
     public partial class Form1 : Form
     {
-        public Form1()
-        {
-            InitializeComponent();
-        }
+        public Form1() => InitializeComponent();
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -24,6 +20,10 @@ namespace PathConverter
                 outputBox.Text = ex.Message;
             }
         }
+
+        private void button2_Click(object sender, EventArgs e) => rawDataBox.Text = string.Empty;
+
+        private void button3_Click(object sender, EventArgs e) => Clipboard.SetText(outputBox.Text);
 
         private static string Convert(string rawData)
         {
